@@ -1,4 +1,4 @@
-3/*Exercise 4 - Functions
+/*Exercise 4 - Functions
 
 Write a program to calculate the function called nCr which is defined as
 
@@ -45,5 +45,6 @@ long nCr(int n,int r)
   long nCr;
 
   nCr=Factorial(n)/(Factorial(r)*Factorial(n-r));
-  return nCr;
+return nCr;  
 }
+
